@@ -14,18 +14,8 @@ function makeGrid() {
 }
 function changeColor() {
 	var pickedColor = $('input[type="color"]').val();
-	//var currentCellColor = $(this).css("background-color");
-	// if (currentCellColor = pickedColor) {
-	// 	$(this).css("background-color", "white");
-	// } else {
-	$(this).css("background-color", pickedColor);	
-	//}
+		$(this).css("background-color", pickedColor);	
 }
-
 $('#sizePicker').submit(makeGrid);
 $('#pixelCanvas').on('click', 'td', changeColor);
-//$('#pixelCanvas').off('mouseleave', 'td');
- 
-  
 });
-
