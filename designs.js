@@ -1,5 +1,4 @@
 $(document).ready(function() {
-var pickedColor = $('input[type="color"]').val();
 function makeGrid() {
 	var h = Number($('#inputHeight').val());
 	var w = Number($('#inputWidth').val());
@@ -14,11 +13,12 @@ function makeGrid() {
 	return false; 
 }
 function changeColor() {
+	var pickedColor = $('input[type="color"]').val();
 	//var currentCellColor = $(this).css("background-color");
 	// if (currentCellColor = pickedColor) {
 	// 	$(this).css("background-color", "white");
 	// } else {
-		$(this).css("background-color", pickedColor);	
+	$(this).css("background-color", pickedColor);	
 	//}
 }
 
