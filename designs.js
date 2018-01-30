@@ -14,7 +14,7 @@ function makeGrid() {
 	return false; 
 }
 function changeColor() {
-	var currentCellColor = $(this).css("background-color");
+	//var currentCellColor = $(this).css("background-color");
 	// if (currentCellColor = pickedColor) {
 	// 	$(this).css("background-color", "white");
 	// } else {
