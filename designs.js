@@ -23,8 +23,8 @@ function changeColor() {
 }
 
 $('#sizePicker').submit(makeGrid);
-$('#pixelCanvas').on('mouseover ', 'td', changeColor);
-$('#pixelCanvas').off('mouseleave', 'td');
+$('#pixelCanvas').on('click', 'td', changeColor);
+//$('#pixelCanvas').off('mouseleave', 'td');
  
   
 });
